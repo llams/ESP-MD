@@ -20,3 +20,5 @@ Web config http://ip/cfg/<br>
 <img src="https://github.com/llams/esp-snmp/blob/main/img/IO-DS.PNG">
 
 <br>The data is collected by the Zabbix server.
+<img src="https://github.com/llams/esp-snmp/blob/main/img/zabbix-data.PNG">
+<img src="https://github.com/llams/esp-snmp/blob/main/img/zabbix-graph.PNG">
