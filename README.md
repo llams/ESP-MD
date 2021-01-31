@@ -13,3 +13,10 @@ SNMPv2 monitoring device based on <b>ESP32</b> and <b>LAN8720A</b> (LILYGO®TTGO
 - automatic MIB address generation depending on the type of port and sensor.
 <br>
 Web config http://ip/cfg/<br>
+
+<img src="https://github.com/llams/esp-snmp/blob/main/img/MAIN.PNG">
+<img src="https://github.com/llams/esp-snmp/blob/main/img/SNMP.PNG">
+<img src="https://github.com/llams/esp-snmp/blob/main/img/IO.PNG">
+<img src="https://github.com/llams/esp-snmp/blob/main/img/IO-DS.PNG">
+
+<br>The data is collected by the Zabbix server.
