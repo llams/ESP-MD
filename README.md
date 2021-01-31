@@ -12,7 +12,7 @@ SNMPv2 monitoring device based on <b>ESP32</b> and <b>LAN8720A</b> (LILYGO®TTGO
 - ADC input.
 - automatic MIB address generation depending on the type of port and sensor.
 <br>
-Web config http://ip/cfg/<br>
+Web config http://ip/cfg/<br><br>
 
 <img src="https://github.com/llams/esp-snmp/blob/main/img/MAIN.PNG">
 <img src="https://github.com/llams/esp-snmp/blob/main/img/SNMP.PNG">
