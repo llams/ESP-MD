@@ -7,9 +7,9 @@ SNMPv2 monitoring device based on <b>ESP32</b> and <b>LAN8720A</b> (LILYGO®TTGO
 - web configuration ,with basic authentication, no SSL support,
 - OTA wirmware update,
 - static or dynamic IP,
-- the ability to work with sensors DS18b20, DHT11, DHT22, AM2302, RHT03,
-- dry contact with operation counter,
-- ADC input.
+- dry contact with operation counter, on all available ports for <a href="https://github.com/Xinyuan-LilyGO/LilyGO-T-ETH-POE">LILYGO®TTGO T-Internet-POE</a>, IO4, IO16, IO32, IO34, IO35, IO36, IO39,
+- the ability to work with sensors DS18b20, DHT11, DHT22, AM2302, RHT03 on ports IO4, IO16, IO32,
+- ADC input on ports IO34, IO35, IO36, IO39,
 - automatic MIB address generation depending on the type of port and sensor.
 <br>
 Web config http://ip/cfg/<br><br>
@@ -19,6 +19,6 @@ Web config http://ip/cfg/<br><br>
 <img src="https://github.com/llams/esp-snmp/blob/main/img/IO.PNG">
 <img src="https://github.com/llams/esp-snmp/blob/main/img/IO-DS.PNG">
 
-<br>The data is collected by the Zabbix server.
+<br>The data is collected by the Zabbix server.<br>
 <img src="https://github.com/llams/esp-snmp/blob/main/img/zabbix-data.PNG">
 <img src="https://github.com/llams/esp-snmp/blob/main/img/zabbix-graph.PNG">
