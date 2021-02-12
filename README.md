@@ -20,7 +20,7 @@ Web config http://ip/cfg/<br><br>
 <img src="https://github.com/llams/esp-snmp/blob/main/img/IOCfg.PNG">
 
 <br>The data is collected by the Zabbix server.
-<br>The template allows you to dynamically detect port settings.
+<br>Template allows dynamically detect port settings.
 <br>
 <img src="https://github.com/llams/esp-snmp/blob/main/img/ZABBIX.PNG">
 <img src="https://github.com/llams/esp-snmp/blob/main/img/ZABBIXCfg.PNG">
