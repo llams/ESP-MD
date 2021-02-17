@@ -1,16 +1,21 @@
 # esp-snmp
-SNMPv2 monitoring device based on <b>ESP32</b> and <b>LAN8720A</b> (LILYGO®TTGO T-Internet-POE)
-<br>The device has the following functionality:
+SNMPv2 monitoring device based on <b>ESP32</b> and <b>LAN8720A</b> (LILYGO®TTGO T-Internet-POE or WT32-ETH01)
+<br><b>The device has the following functionality:</b>
 - ESP32 + LAN8720A
 - support of the SNMPv2 protocol,
-- PoE,
 - web configuration ,with basic authentication, no SSL support,
 - OTA firmware update,
 - static or dynamic IP,
-- dry contact with operation counter, on all available ports for <a href="https://github.com/Xinyuan-LilyGO/LilyGO-T-ETH-POE">LILYGO®TTGO T-Internet-POE</a>, IO4, IO16, IO32, IO34, IO35, IO36, IO39,
-- the ability to work with sensors DS18b20, DHT11, DHT22, AM2302, RHT03 on ports IO4, IO16, IO32,
-- ADC input on ports IO34, IO35, IO36, IO39,
 - automatic OID address generation depending on the type of port and sensor.
+<br><b>LILYGO®TTGO T-Internet-POE</b>
+- PoE 802.3at,
+- dry contact with operation counter, on all available ports for <a href="https://github.com/Xinyuan-LilyGO/LilyGO-T-ETH-POE">LILYGO®TTGO T-Internet-POE</a>, IO2, IO4, I12, IO16, IO32, IO34, IO35, IO36, IO39,
+- the ability to work with sensors DS18b20, DHT11, DHT22, AM2302, RHT03 on ports IO2, IO4, I12, IO16, IO32,
+- ADC input on ports IO34, IO35, IO36, IO39,
+<br><b>WT32-ETH01</b>
+- dry contact with operation counter, on all available ports for <a href="http://www.wireless-tag.com/portfolio/wt32-eth01/">WT32-ETH01</a>, IO2, IO4, I12, IO14, IO15, IO33, IO35, IO36, IO39,
+- the ability to work with sensors DS18b20, DHT11, DHT22, AM2302, RHT03 on ports IO2, IO4, I12, IO16, IO32,
+- ADC input on ports IO33, IO35, IO36, IO39,
 <br>
 Web config http://ip/cfg/<br><br>
 
