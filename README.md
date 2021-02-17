@@ -25,6 +25,8 @@ Web config http://ip/cfg/<br><br>
 <img src="https://github.com/llams/esp-snmp/blob/main/img/SNMP.PNG">
 <img src="https://github.com/llams/esp-snmp/blob/main/img/IOList.PNG">
 <img src="https://github.com/llams/esp-snmp/blob/main/img/IOCfg.PNG">
+<img src="https://github.com/llams/esp-snmp/blob/main/img/BUS.PNG">
+<img src="https://github.com/llams/esp-snmp/blob/main/img/BUSScan.PNG">
 
 <br>The data is collected by the Zabbix server.
 <br>Template allows dynamically detect port settings.
