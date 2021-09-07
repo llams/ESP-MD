@@ -21,6 +21,9 @@ SNMPv2 monitoring device based on <b>ESP32</b> and <b>LAN8720A</b> (LILYGO®TTGO
 - ADC input on ports IO33, IO35, IO36, IO39,
 - I2C support BME280 and BH1750 (I2C bus on SDA IO15 and SCL IO14),
 <br>
+Web config http://ip/<br><br>
+<img src="https://github.com/llams/esp-snmp/blob/main/img/INFO.PNG">
+<br>
 Web config http://ip/cfg/<br><br>
 
 <img src="https://github.com/llams/esp-snmp/blob/main/img/MAIN.PNG">
