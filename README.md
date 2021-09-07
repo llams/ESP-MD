@@ -13,11 +13,13 @@ SNMPv2 monitoring device based on <b>ESP32</b> and <b>LAN8720A</b> (LILYGO®TTGO
 - the ability to work with sensors DS18b20, DHT11, DHT22, AM2302, RHT03 on ports IO2, IO4, I12, IO16, IO32,
 - 1 Wire bus support with DS18B20 on ports IO2, IO4, I12, IO16, IO32,
 - ADC input on ports IO34, IO35, IO36, IO39,
+- I2C support BME280 and BH1750 (I2C bus on SDA IO33 and SCL IO32),
 <br><b>WT32-ETH01</b>
 - dry contact with operation counter, on all available ports for <a href="http://www.wireless-tag.com/portfolio/wt32-eth01/">WT32-ETH01</a>, IO2, IO4, I12, IO14, IO15, IO33, IO35, IO36, IO39,
 - the ability to work with sensors DS18b20, DHT11, DHT22, AM2302, RHT03 on ports IO2, IO4, I12, IO14, IO15, IO33,
 - 1 Wire bus support with DS18B20 on ports IO2, IO4, I12, IO14, IO15, IO33,
 - ADC input on ports IO33, IO35, IO36, IO39,
+- I2C support BME280 and BH1750 (I2C bus on SDA IO15 and SCL IO14),
 <br>
 Web config http://ip/cfg/<br><br>
 
