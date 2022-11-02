@@ -13,13 +13,13 @@ This firmware allows you to use the ESP32 as SMTPv2 server to receive and publis
 - static or dynamic IP,
 - automatic OID address generation depending on the type of port and sensor.
 - three firmware options are presented depending on the periphery:<br>
-a) <b>LILYGO®TTGO T-Internet-POE</b> - ESP32 + LAN8720A:<br>
+<b>a) <a href="https://github.com/Xinyuan-LilyGO/LilyGO-T-ETH-POE">LILYGO®TTGO T-Internet-POE</a></b> - ESP32 + LAN8720A:<br>
 - LAN & PoE 802.3at,<br>
-- available ports for <a href="https://github.com/Xinyuan-LilyGO/LilyGO-T-ETH-POE">LILYGO®TTGO T-Internet-POE</a>, IO2, IO4, I12, IO16, IO32, IO34, IO35, IO36, IO39.<br>
-b) <b>WT32-ETH01</b> - ESP32 + LAN8720A:<br>
+- available ports IO2, IO4, I12, IO16, IO32, IO34, IO35, IO36, IO39.<br>
+<b>b) <a href="http://www.wireless-tag.com/portfolio/wt32-eth01/">WT32-ETH01</a></b> - ESP32 + LAN8720A:<br>
 - LAN & PoE,<br>
-- available ports for <a href="http://www.wireless-tag.com/portfolio/wt32-eth01/">WT32-ETH01</a>, IO2, IO4, I12, IO14, IO15, IO33, IO35, IO36, IO39.<br>
-c) <b>ESP32-WROOM</b>:<br>
+- available ports IO2, IO4, I12, IO14, IO15, IO33, IO35, IO36, IO39.<br>
+<b>c) ESP32-WROOM</b>:<br>
 - Wi-Fi,<br>
 - available ports IO4, IO12, IO14, IO16, IO18, IO19, IO23, IO25, IO26, IO27, IO32, IO33, IO34, IO35, IO36, IO39.
 <br>
