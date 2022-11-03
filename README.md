@@ -2,6 +2,8 @@
 This firmware allows you to use the ESP32 as SMTPv2 server to receive and publish data from digital or analog sensors, as well as from the digital inputs of the controller.
 <br>
 <br>
+The project uses the library <a href="https://github.com/0neblock/Arduino_SNMP">SNMP_Agent</a>  
+<br>
 <b>Key features:</b><br>
 - all settings and control of the controller is carried out through the web interface,
 - available ports can be configured by the user for available functionality depending on the selected interface,
