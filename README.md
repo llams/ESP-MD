@@ -20,8 +20,9 @@ This firmware allows you to use the ESP32 as SMTPv2 server to receive and publis
 - LAN & PoE,<br>
 - available ports IO2, IO4, I12, IO14, IO15, IO33, IO35, IO36, IO39.<br>
 <b>c) ESP32-WROOM</b>:<br>
-- Wi-Fi,<br>
-- available ports IO4, IO12, IO14, IO16, IO18, IO19, IO23, IO25, IO26, IO27, IO32, IO33, IO34, IO35, IO36, IO39.
+- Wi-Fi,
+- available ports IO4, IO12, IO14, IO16, IO18, IO19, IO23, IO25, IO26, IO27, IO32, IO33, IO34, IO35, IO36, IO39,
+- IO13 set to factory reset, you need to connect to GND and apply power, then open the circuit.
 <br>
 <b>Supported input functions:</b>
 <br>
@@ -64,11 +65,11 @@ Web http://ip/
 <br>
 <br>
 <img src="https://github.com/llams/esp-snmp/blob/main/img/ui_main.gif">
-
 <br>
-<br>Template for Zabbix server allows dynamically detect port settings.
 <br>
 Example snmpwalk output OIDs
 <br>
+<br>
 <img src="https://github.com/llams/esp-snmp/blob/main/img/OIDs.png">
-
+<br>
+Template for Zabbix server allows dynamically detect port settings.
