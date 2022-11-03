@@ -63,16 +63,12 @@ The procedure for scanning connected sensors has been implemented. The address i
 Web http://ip/
 <br>
 <br>
-<img src="https://github.com/llams/esp-snmp/blob/main/img/INFO.PNG">
-<br>
-Web config http://ip/cfg/<br><br>
+<img src="https://github.com/llams/esp-snmp/blob/main/img/ui_main.gif">
 
-<img src="https://github.com/llams/esp-snmp/blob/main/img/MAIN.PNG">
-<img src="https://github.com/llams/esp-snmp/blob/main/img/SNMP.PNG">
-<img src="https://github.com/llams/esp-snmp/blob/main/img/IOList.PNG">
-
-<br>The data is collected by the Zabbix server.
-<br>Template allows dynamically detect port settings.
 <br>
-<img src="https://github.com/llams/esp-snmp/blob/main/img/ZABBIX.PNG">
-<img src="https://github.com/llams/esp-snmp/blob/main/img/ZABBIXCfg.PNG">
+<br>Template for Zabbix server allows dynamically detect port settings.
+<br>
+Example snmpwalk output OIDs
+<br>
+<img src="https://github.com/llams/esp-snmp/blob/main/img/OIDs.png">
+
