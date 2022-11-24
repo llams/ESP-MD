@@ -1,4 +1,4 @@
-# esp-snmp
+# ESP-MD
 This firmware allows you to use the ESP32 as SMTPv2 server to receive and publish data from digital or analog sensors, as well as from the digital inputs of the controller.
 <br>
 <br>
