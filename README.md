@@ -20,7 +20,7 @@ The project uses the library <a href="https://github.com/0neblock/Arduino_SNMP">
 - available ports IO2, IO4, I12, IO16, IO32, IO34, IO35, IO36, IO39.<br>
 <b>b) <a href="http://www.wireless-tag.com/portfolio/wt32-eth01/">WT32-ETH01</a></b> - ESP32 + LAN8720A:<br>
 - LAN & PoE,<br>
-- available ports IO2, IO4, I12, IO14, IO15, IO33, IO35, IO36, IO39.<br>
+- available ports IO2, IO4, IO5, I12, IO14, IO15, IO17, IO33, IO35, IO36, IO39.<br>
 <b>c) ESP32-WROOM</b>:<br>
 - Wi-Fi,
 - available ports IO4, IO12, IO14, IO16, IO18, IO19, IO23, IO25, IO26, IO27, IO32, IO33, IO34, IO35, IO36, IO39,
