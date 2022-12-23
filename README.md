@@ -17,10 +17,10 @@ The project uses the library <a href="https://github.com/0neblock/Arduino_SNMP">
 - three firmware options are presented depending on the periphery:<br>
 <b>a) <a href="https://github.com/Xinyuan-LilyGO/LilyGO-T-ETH-POE">LILYGO®TTGO T-Internet-POE</a></b> - ESP32 + LAN8720A:<br>
 - LAN & PoE 802.3at,<br>
-- available ports IO2, IO4, I12, IO16, IO32, IO34, IO35, IO36, IO39.<br>
+- available ports IO2, IO4, IO12, IO16, IO32, IO33, IO34, IO35, IO36, IO39.<br>
 <b>b) <a href="http://www.wireless-tag.com/portfolio/wt32-eth01/">WT32-ETH01</a></b> - ESP32 + LAN8720A:<br>
 - LAN & PoE,<br>
-- available ports IO2, IO4, IO5, I12, IO14, IO15, IO17, IO33, IO35, IO36, IO39.<br>
+- available ports IO2, IO4, IO5, IO12, IO14, IO15, IO17, IO32, IO33, IO35, IO36, IO39.<br>
 <b>c) ESP32-WROOM</b>:<br>
 - Wi-Fi,
 - available ports IO4, IO12, IO14, IO16, IO18, IO19, IO23, IO25, IO26, IO27, IO32, IO33, IO34, IO35, IO36, IO39,
@@ -52,7 +52,7 @@ The procedure for scanning connected sensors has been implemented. The address i
 <br>
 <br>
 <img src="https://github.com/llams/esp-snmp/blob/main/img/IO_DS_BUS_Scan.png">
-6. sensors connected to the I2C bus. The following sensors <b>BME280</b>, <b>HTU21D (Si7021)</b> and <b>BH1750</b> are supported. To connect sensors of this type, two ports are used, depending on the firmware, the port numbers differ, so for LILYGO®TTGO T-Internet-POE it is SDA IO33 and SCL IO32 (P5 and P4), for WT32-ETH01 it is SDA IO15 and SCL IO14 (P4 and P3), for ESP32-WROOM these are SDA IO33 and SCL IO32 (P11 and P10).
+6. sensors connected to the I2C bus. The following sensors <b>BME280</b>, <b>HTU21D (Si7021)</b> and <b>BH1750</b> are supported. To connect sensors of this type, two ports are used, depending on the firmware, the port numbers differ, so for LILYGO®TTGO T-Internet-POE it is SDA IO33 and SCL IO32 (P5 and P4), for WT32-ETH01 it is SDA IO33 and SCL IO32 (P8 and P7), for ESP32-WROOM these are SDA IO33 and SCL IO32 (P11 and P10).
 <br>
 <br>
 <img src="https://github.com/llams/esp-snmp/blob/main/img/IO_I2C.png">
