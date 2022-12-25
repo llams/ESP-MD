@@ -10,7 +10,7 @@ The project uses the library <a href="https://github.com/0neblock/Arduino_SNMP">
 - I2C support,
 - 1 Wire sensors and bus support,
 - support of the SNMPv2 protocol,
-- web configuration, with basic authentication, no SSL support,
+- web configuration, with digest authentication, no SSL support,
 - OTA firmware update,
 - static or dynamic IP,
 - automatic OID address generation depending on the type of port and sensor.
