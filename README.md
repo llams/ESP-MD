@@ -18,10 +18,13 @@ The project uses the library <a href="https://github.com/0neblock/Arduino_SNMP">
 <b>a) <a href="https://github.com/Xinyuan-LilyGO/LilyGO-T-ETH-POE">LILYGO®TTGO T-Internet-POE</a></b> - ESP32 + LAN8720A:<br>
 - LAN & PoE 802.3at,<br>
 - available ports IO2, IO4, IO12, IO16, IO32, IO33, IO34, IO35, IO36, IO39.<br>
-<b>b) <a href="http://www.wireless-tag.com/portfolio/wt32-eth01/">WT32-ETH01</a></b> - ESP32 + LAN8720A:<br>
-- LAN & PoE,<br>
+<b>b) <a href="https://github.com/AI6YP/eth01-evo">ETH01-EVO</a></b> - ESP32-C3 + DM9051:<br>
+- LAN & PoE 802.3af,<br>
+- available ports IO0, IO1, IO2, IO18, IO19.<br>
+<b>c) <a href="http://www.wireless-tag.com/portfolio/wt32-eth01/">WT32-ETH01</a></b> - ESP32 + LAN8720A:<br>
+- LAN,<br>
 - available ports IO2, IO4, IO5, IO12, IO14, IO15, IO17, IO32, IO33, IO35, IO36, IO39.<br>
-<b>c) ESP32-WROOM</b>:<br>
+<b>c) ESP32-WROOM or ESP32-S1</b>:<br>
 - Wi-Fi,
 - available ports IO4, IO12, IO14, IO16, IO18, IO19, IO23, IO25, IO26, IO27, IO32, IO33, IO34, IO35, IO36, IO39,
 - IO13 set to factory reset, you need to connect to GND and apply power, then open the circuit.
